@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    
+ <!--this little piece of code makes it scalable to mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>There to me</title>
     <script src='js/jquery.js'></script>
     <script src='js/jquery.browser.js'></script>
@@ -124,8 +125,11 @@
     </script>
 </head>
 <body>
+<div id="everything">
+<div id="allBlock">
+<div id="logoBlock"><img src="Images/toMeLogo.png"></div>
     <div id="adder">
-        <input id="theAddress" type="text" placeholder="Enter an address" /><button id="addAddress">Add Address</button><button id="clear">Clear Stored Addresses</button><br /><input id="emailAddress" type="email" placeholder="enter email"/><button id="email">Create Email Links</button>
+        <input id="theAddress" type="text" placeholder="Enter an address" /><button id="addAddress">Add New</button><button id="clear">Clear All</button><br /><input id="emailAddress" type="email" /><button id="email">Add Email</button>
     </div>
     <div id="addressTableContainer">
         <table id="addressTable" class="pretty">
@@ -143,5 +147,8 @@
             </tbody>
         </table>
     </div>
+</div>
+;
+</div>
 </body>
 </html>

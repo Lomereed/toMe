@@ -8,10 +8,174 @@
  * Page setup styles
  */
 
+::-webkit-input-placeholder {
+   color: #EBEBEB;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+
+
+#everything {
+	background-image:url(../Images/grassbg.jpg);
+	background-size:100% 100%;
+   background-repeat:no-repeat;
+   
+   
+}
+
+
 #logo
 {
     
 }
+
+#allBlock {
+	width:90%;
+	height:85%;
+	
+	
+	overflow:hidden;
+	
+}
+
+#logoBlock {
+	margin
+	
+
+}
+
+#adder {
+	border:#666 solid 2px;
+	background-color: #F9F9F9;
+	margin:auto;
+	overflow:hidden;
+	margin-top:-5px;
+	padding:3%;
+	border-radius:5px;
+	
+	
+}
+
+#theAddress {
+	width:96%;
+	height:1.3em;
+	margin-bottom:3%;
+	border:1px  #666 solid;
+	font-size:2em;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999;
+	padding-left:3%;
+	
+}
+
+#addAddress {
+	width:48%;
+	border:#CCC 1px solid;
+	background-color:transparent;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#CCC;
+	font-size:1.3em;
+	border-radius:5px;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-right:2%;
+}
+
+#addAddress:hover {
+	
+	border:#0C3 1px solid;
+	background-color:transparent;
+	color:#0C3;
+	
+}
+
+#addAddress:active {
+	border:#0C3 1px solid;
+	background-color: #98FF95;
+	color:#0C3;
+	
+}
+
+#clear {
+	width:48%;
+	font-family:Arial, Helvetica, sans-serif;
+	border:#CCC 1px solid;
+	background-color:transparent;
+	color: #CCC;
+	margin-left:2%;
+	font-size:1.3em;
+	border-radius:5px;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+#clear:hover {
+	border:#FD7785 1px solid;
+	background-color:transparent;
+	color: #FD7785;
+	
+}
+
+#clear:active {
+	border:#C60005 1px solid;
+	background-color: #FD7785;
+	color: #C60005;
+	
+}
+
+#emailAddress {
+	width:57%;
+	height:1.3em;
+	margin-bottom:3%;
+	border:1px  #666 solid;
+	font-size:2em;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999;
+	padding-left:3%;
+	margin-top:3%;
+	margin-right:2%;
+}
+
+#email {
+	width:34%;
+	font-family:Arial, Helvetica, sans-serif;
+	border:#CCC 1px solid;
+	background-color:transparent;
+	color: #CCC;
+	margin-left:2%;
+	font-size:1.3em;
+	border-radius:5px;
+	padding-top:3%;
+	padding-bottom:2%;
+	margin-top:-1%;
+	
+}
+
+#email:hover {
+	border:#B3D5FF 1px solid;
+	background-color:transparent;
+	color: #B3D5FF;
+	
+}
+
+#email:active {
+	border: #B3D5FF 1px solid;
+	background-color: #E1EFFF;
+	color: #B3D5FF;
+	
+}
+
+
 #page1Table td
 {
     
