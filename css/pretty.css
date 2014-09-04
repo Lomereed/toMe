@@ -29,6 +29,7 @@
 	background-image:url(../Images/grassbg.jpg);
 	background-size:100% 100%;
    background-repeat:no-repeat;
+   padding-top:3%;
    
    
 }
@@ -42,26 +43,28 @@
 #allBlock {
 	width:90%;
 	height:85%;
+	margin:auto;
 	
 	
-	overflow:hidden;
+	
 	
 }
 
 #logoBlock {
-	margin
-	
+	width:40%;
 
-}
+	
+	} 
 
 #adder {
-	border:#666 solid 2px;
+	border:#666  2px;
 	background-color: #F9F9F9;
 	margin:auto;
-	overflow:hidden;
+	
 	margin-top:-5px;
 	padding:3%;
 	border-radius:5px;
+	box-shadow:2px 2px 10px #333;
 	
 	
 }
